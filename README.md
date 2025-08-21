@@ -9,7 +9,6 @@ This is a machine learning project that predicts whether an employee earns **mor
 - Supports both individual and batch predictions
 - Interactive UI using **Streamlit**
 - Model trained using algorithms like Logistic Regression, Random Forest, SVM, and Gradient Boosting
-- Hosted using **ngrok** from Google Colab for public access
 
 ---
 
@@ -26,31 +25,34 @@ This is a machine learning project that predicts whether an employee earns **mor
 ### Option 1: Run via Google Colab
 1. Upload all files (`salary.py`, `best_model.pkl`, etc.) to Colab
 2. Install dependencies:
-   !pip install streamlit pyngrok joblib pandas scikit-learn matplotlib
-3.Run the app using:
-   !streamlit run salary.py & npx localtunnel --port 8501
-
+   !pip install streamlit joblib pandas scikit-learn matplotlib
+3. Run the app using:   
+   !streamlit run salary.py
 ### Option 2: Run Locally
-1.Clone the repository:
-git clone https://github.com/your-username/employee-salary-prediction.git
-cd employee-salary-prediction
-2.Install dependencies:
-pip install -r requirements.txt
-3.Run the Streamlit app:
-streamlit run salary.py
+1. Clone the repository:
+   git clone https://github.com/your-username/employee-salary-prediction.git
+   cd employee-salary-prediction
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Run the Streamlit app:
+   streamlit run salary.py
+### Option 3: Deploy on Streamlit Community Cloud
+1. Push this repo to GitHub
+2. Go to Streamlit Community Cloud
+3. Select this repo and set salary.py as the entry point
+4. Your app will be live! 🚀
 
 📦 Dependencies
-pandas
-
-1.matplotlib
-2.scikit-learn
-3.streamlit
-4.pyngrok
-5.joblib
+1. pandas
+2. matplotlib
+3. scikit-learn
+4. streamlit
+5. joblib
 
 📜 License
 This project is licensed under the MIT License.
 
 👨‍💻 Author
 Developed by Pragya Srivastava
+
 
